@@ -1,0 +1,128 @@
+body{
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: gray;
+}
+ul{
+font-size: x-large;
+font-weight: bolder;
+list-style-type: none;
+margin-top: 20px;
+margin: 10px;
+overflow: hidden;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;  
+  text-align: center; padding: 14px 16px;
+  text-decoration: none;
+}
+.home{
+float: right}
+.Premium{
+  margin: 30px;
+margin-top: 80px;
+font-size: xx-large;
+font-weight: 900;
+color: white;
+}
+#bg image{
+background-image: url("images/image2.png" ); 
+}
+.content{
+  width: 100%;
+  height: 570px;
+  background-image: url(images/image2.png);
+  background-size: cover;
+}
+.serv{
+  text-align: center;
+}
+.service{
+display: flex;
+justify-content: space-evenly;
+}
+.serve{
+height: 300px; width: 25%;
+text-align: center;
+background-color: white;
+}
+.cont{
+  display: flex;
+  width: 100%;
+  height: 600px;
+  margin-top: 10px;
+}
+.review{
+  background-color: black;
+  width: 950px;
+  text-align: center;
+  padding-top: 100px;
+}
+#box, #box1{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.dish,.dish1{
+  height: 250px;
+  width: 500px;
+  background-color: white;
+}
+.img, .img1{
+  height: 200px;
+  width: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.text,.text1{
+  float: right;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+.footer{
+  width: 100%;
+  height: 450px;
+  background-image: url(images/image8.png);
+  background-size: cover;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 25px;
+}
+.btn{
+  padding: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  border: none;
+  height: 80px;
+  width: 80px;
+  /* text-align: center; */
+  text-decoration: none;
+  border-radius: 100%;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+.but{
+  margin-top: 10px;
+  background-color: smoke whitesmoke;
+  height: 40px;
+  width: 120px;
+  color: black;
+  font-weight: bolder;
+  border: none;
+}
+.btx{
+  margin-top: 10px;
+  height: 50px;
+  width: 180px;
+  font-weight: bolder;
+  border: solid 2px white;
+  background: none;
+  color: white;
+  font-size: larger;
+}
